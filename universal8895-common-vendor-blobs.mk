@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/firmware/cs47l92-dsp1-dsd-176.4kHz.wmfw:system/etc/firmware/cs47l92-dsp1-dsd-176.4kHz.wmfw \
     vendor/samsung/universal8895-common/proprietary/etc/firmware/cs47l92-dsp1-dsd-352.8kHz.wmfw:system/etc/firmware/cs47l92-dsp1-dsd-352.8kHz.wmfw \
     vendor/samsung/universal8895-common/proprietary/etc/firmware/cs47l92-dsp1-trace.wmfw:system/etc/firmware/cs47l92-dsp1-trace.wmfw \
-    vendor/samsung/universal8895-common/proprietary/etc/init/android.hidl.allocator@1.0-service.rc:system/etc/init/android.hidl.allocator@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/etc/init/atrace.rc:system/etc/init/atrace.rc \
     vendor/samsung/universal8895-common/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
     vendor/samsung/universal8895-common/proprietary/etc/init/bootanim.rc:system/etc/init/bootanim.rc \
@@ -105,23 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/gnss/gps.cer:system/vendor/etc/gnss/gps.cer \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/gnss/gps.xml:system/vendor/etc/gnss/gps.xml \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.audio@2.0-service.rc:system/vendor/etc/init/android.hardware.audio@2.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.configstore@1.0-service.rc:system/vendor/etc/init/android.hardware.configstore@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.gnss@1.0-service.rc:system/vendor/etc/init/android.hardware.gnss@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:system/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.rc:system/vendor/etc/init/android.hardware.keymaster@3.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.light@2.0-service.rc:system/vendor/etc/init/android.hardware.light@2.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service_exynos.rc:system/vendor/etc/init/android.hardware.media.omx@1.0-service_exynos.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:system/vendor/etc/init/android.hardware.memtrack@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.power@1.0-service.rc:system/vendor/etc/init/android.hardware.power@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:system/vendor/etc/init/android.hardware.thermal@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.usb@1.0-service.rc:system/vendor/etc/init/android.hardware.usb@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.vr@1.0-service.rc:system/vendor/etc/init/android.hardware.vr@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:system/vendor/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/hostapd.android.rc:system/vendor/etc/init/hostapd.android.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.rilcarrier.rc:system/vendor/etc/init/init.rilcarrier.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.rilchip.rc:system/vendor/etc/init/init.rilchip.rc \
@@ -134,6 +116,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.nfc@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc:system/vendor/etc/init/vendor.samsung.hardware.vibrator@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vndservicemanager.rc:system/vendor/etc/init/vndservicemanager.rc \
+    vendor/samsung/universal8895-common/proprietary/etc/wifi/bcmdhd_clm.blob:system/etc/wifi/bcmdhd_clm.blob \
+    vendor/samsung/universal8895-common/proprietary/etc/wifi/bcmdhd_sta.bin_b0:system/etc/wifi/bcmdhd_sta.bin_b0 \
+    vendor/samsung/universal8895-common/proprietary/etc/wifi/nvram_net.txt_r02j_b0:system/etc/wifi/nvram_net.txt_r02j_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:system/vendor/etc/wifi/bcmdhd_clm.blob \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b0:system/vendor/etc/wifi/bcmdhd_mfg.bin_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b2:system/vendor/etc/wifi/bcmdhd_mfg.bin_b2 \
@@ -304,6 +289,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/setfile_imx333.bin:system/vendor/firmware/setfile_imx333.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/SoundBoosterParam.bin:system/vendor/firmware/SoundBoosterParam.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/vts.bin:system/vendor/firmware/vts.bin \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib/libbauthserver.so:system/vendor/lib/libbauthserver.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib/libtinyalsa.so:system/vendor/lib/libtinyalsa.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib/libtinycompress.so:system/vendor/lib/libtinycompress.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/power.universal8895.so:system/vendor/lib/hw/power.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/thermal.universal8895.so:system/vendor/lib/hw/thermal.universal8895.so \
@@ -328,7 +316,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/sensors.bio.so:system/vendor/lib/sensors.bio.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/sensors.grip.so:system/vendor/lib/sensors.grip.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/sensors.sensorhub.so:system/vendor/lib/sensors.sensorhub.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libtinyalsa.so:system/vendor/lib64/libtinyalsa.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib64/gps.default.so:system/vendor/lib64/hw/gps.default.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:system/vendor/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/nfc_nci.default.so:system/vendor/lib64/hw/nfc_nci.default.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/power.universal8895.so:system/vendor/lib64/hw/power.universal8895.so \
@@ -355,3 +345,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.bio.so:system/vendor/lib64/sensors.bio.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.grip.so:system/vendor/lib64/sensors.grip.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.sensorhub.so:system/vendor/lib64/sensors.sensorhub.so
+
