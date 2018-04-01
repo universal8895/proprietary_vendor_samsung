@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter dream2lte,$(TARGET_DEVICE)),)
+ifneq ($(filter dreamlte dream2lte, $(TARGET_DEVICE)),)
 
 
 ifeq ($(WITH_EXYNOS_BSP),)
